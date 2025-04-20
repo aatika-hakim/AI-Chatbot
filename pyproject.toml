@@ -7,7 +7,9 @@ authors = [
     { name = "aatika-hakim", email = "aatikahakim90@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "chainlit>=2.5.5",
+]
 
 [project.scripts]
 ai-chatbot = "ai_chatbot:main"
